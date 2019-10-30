@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+</head>
+<body class="relative ma0">
+    <div id="container" class="ma4"></div>
+    <form id="msgcenter" class="bottom-0 absolute w-100 bg-near-white">
+        <input type="text"  class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-80 ma4" id="message"/>
+        <button type="submit" class="b ph2 pv2 input-reset ba b--black bg-transparent grow pointer f3 dib w-10">send</button>
+    </form>
+</body>
+</html>
